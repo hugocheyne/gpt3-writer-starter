@@ -33,21 +33,21 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>ChatGeppetto</title>
+        <title>Mr Toblerone's classroom</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>👨‍🍳 Welcome to Geppetto's!</h1>
+            <h1>🧑‍🏫 Welcome to Mr Toblerone's classroom!</h1>
           </div>
           <div className="header-subtitle">
-            <h2>I'm a friendly old chef from Italy. Give me a list of your ingredients and I'll suggest a recipe!</h2>
+            <h2>I know lots about two photon microscopy! Ask me a question and I can give you an answer</h2>
           </div>
         </div>
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="pasta, onions, tomatos, garlic"
+            placeholder="How does two-photon microscopy work?"
             value={userInput}
             onChange={onUserChangedText}
           />
